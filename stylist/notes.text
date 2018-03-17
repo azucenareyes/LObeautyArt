@@ -1,0 +1,8 @@
+start with mockup and css just to get a feel for what is needed,
+so like a bunch of divs and then some css.
+
+make sure to import into App
+With a new component make sure to import React and export the const.
+
+
+I was using class and render instead of const.

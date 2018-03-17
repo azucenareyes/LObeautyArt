@@ -1,0 +1,10 @@
+For the bio, change it to first person
+
+Factor out the bio so the App.js looks clean
+
+Look into React.Prototypes.string
+
+Remember no if else statements in React
+
+First step mock it up statically via a bunch of plain ol divs,
+Second step to factor it out and see what could be re-usable.
