@@ -3,7 +3,7 @@ import './App.css';
 import Gallery from './gallery.js'
 import Bio from './bio_paragraphs.js';
 import Services from './services.js';
-import Calendar from './calendar.js';
+import Scheduler from './scheduler.js';
 
 
 
@@ -12,7 +12,7 @@ class App extends Component {
 
   constructor(props) {
     super(props)
-    this.state = {showGallery: false, showBio: false, showServices: false, showCalendar: false}
+    this.state = {showGallery: false, showBio: false, showServices: false, showScheduler: false}
   }
 
   toggleGallery(){
@@ -27,8 +27,8 @@ class App extends Component {
     this.setState(Object.assign(this.state, {showServices: ! this.state.showServices}))
   }
 
-  toggleCalendar(){
-    this.setState(Object.assign(this.state, {showBioCalendar: ! this.state.showCalendar}))
+  toggleScheduler(){
+    this.setState(Object.assign(this.state, {showBioScheduler: ! this.state.showBioScheduler}))
   }
 
   render() {
@@ -43,22 +43,18 @@ class App extends Component {
         <h3 className="App-intro">pro hair & makeup artist-beauty consultant-trend setter</h3>
 
 
+        <button type="button" className="button1" onClick={this.toggleServices.bind(this)}>Services</button>
+        {this.state.showServices ? <Services/> : ""}
+
         <button type="button" className="button1" onClick={this.toggleGallery.bind(this)}>Gallery</button>
         {this.state.showGallery ? <Gallery/> : ""}
+
+        <button type="button" className="button1" onClick={this.toggleScheduler.bind(this)}>Scheduler</button>
+        {this.state.showScheduler ? <Scheduler/> : ""}
 
         <button type="button" className="button1" onClick={this.toggleBio.bind(this)}>Bio</button>
         {this.state.showBio ? <Bio/> : ""}
 
-        <button type="button" className="button1" onClick={this.toggleServices.bind(this)}>Services</button>
-        {this.state.showBio ? <Services/> : ""}
-
-        <button type="button" className="button1" onClick={this.toggleCalendar.bind(this)}>Calendar</button>
-        {this.state.showBio ? <Calendar/> : ""}
-
-        <div className="pics">
-          <img src='colors/lowlights.jpg' height='100px' alt='lowlights'/>
-          <img src='colors/redandblue.jpg' height='100px' alt='redandblue'/>
-        </div>
       </div>
     );
   }
