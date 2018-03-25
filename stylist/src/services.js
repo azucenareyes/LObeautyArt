@@ -4,17 +4,24 @@ const Services = (props) => {
 
   return(
     <div>
-      <p>
-        Hair
+      <p className="services">
+        Hair:
+        Color:
+        Haistyles:
+        Cutting:
+        Extentions:
+        Texture:
+
       </p>
       <p>
-        Make-up
+        Make-up: Glam, Special Events,
       </p>
       <p>
-        Readings
+        Special occasions: Prices Upon Request: Weddings, Quinceneras, Pinup styles, special-effect make-up
+
       </p>
       <p>
-        Facials/Waxing
+        Intuitive Counselor
       </p>
     </div>
   );

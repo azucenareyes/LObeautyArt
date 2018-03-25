@@ -1,7 +1,8 @@
 .App {
 
   font-family: fantasy;
-  background-color: #EBD6F5;
+  background-color: Black;
+  color: white;
 }
 
 .App-logo {
@@ -10,7 +11,7 @@
 }
 
 .App-header {
-  text-align: center;
+  text-align: right;
   background-color: #FF1493;
   height: 150px;
   padding: 20px;
@@ -57,4 +58,42 @@ p {
 .pics {
   padding: 25px;
   margin: 25px;
+}
+
+.tabs{
+  /* position:fixed;
+  top:300px;
+  text-align: center;
+  margin: 30px; */
+}
+.scheduler {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+
+}
+
+.services {
+  text-align: center;
+}
+
+.facebook {
+  .btn-facebook {
+	color: #fff;
+	background-color: #4C67A1;
+}
+.btn-facebook:hover {
+	color: #fff;
+	background-color: #405D9B;
+}
+.btn-facebook:focus {
+	color: #fff;
+}
+}
+
+.cerveza{
+  text-align: center;
+}
+.sheers {
+  text-align: left;
 }

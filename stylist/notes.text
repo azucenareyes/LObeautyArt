@@ -6,3 +6,7 @@ With a new component make sure to import React and export the const.
 
 
 I was using class and render instead of const.
+
+(prevState, props) => ( some_value )
+(prevState, props) => { ...; ...; return some_value; }
+function (prevState, props) { ...; ...; return some_value; }
