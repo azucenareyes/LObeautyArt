@@ -27,14 +27,16 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
-          <img src='Self.png' height='50px' alt="selfie"/>
+        <header className="App-header" >
 
-          <h1 className="App-title">LOBeautyArt By: Lydia Macias</h1>
+          <div className="lydia">
+            <img className="selfie" src='Self.png'   height='150px' alt="selfie"/>
+          </div>
+          <h1 className="title">LOBeautyArt By: Lydia Macias</h1>
 
-          <div className="sheers">
+          <div className="facebook">
             <a target="_blank" href="https://www.facebook.com/LObeautyart/">
-              <img src='images/facebook.png' height='30px' alt="facebook"/>
+              <img src='images/facebook.png' height='40px'  alt="facebook"/>
             </a>
           </div>
         </header>
