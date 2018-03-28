@@ -1,40 +1,46 @@
 .App {
 
-  font-family: fantasy;
-  background-color: #EBD6F5;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  text-align: center;
-  background-color: #FF1493;
-  height: 150px;
-  padding: 20px;
+font-family: 'Clicker Script', cursive;
+background-color: #ff00ff;
   color: white;
 }
 
-.App-title {
-  text-align: center;
-  font-size: 1.5em;
+.App-header {
+  background-color: black;
+  height: 250px;
+  padding: 10px;
+  font-family: 'Arizonia', cursive;
+  color: #b8860b;
+
+}
+.lydia{
+  text-align: right;
+  height: 50px;
+}
+
+.title {
+  text-align: left;
+  height: 80px;
+  color: #b8860b;
+  font-weight: bold;
+
+  font-size: 4em;
 }
 
 .App-intro {
   text-align: center;
   font-size: large;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.facebook{
+  text-align: right;
 }
+
 
 p {
   text-align: left;
   margin: 20px;
+  font-family: 'Clicker Script', cursive;
+  font-size: 25px;
 }
 
 .button1 {
@@ -57,4 +63,16 @@ p {
 .pics {
   padding: 25px;
   margin: 25px;
+}
+
+
+.scheduler {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+
+}
+
+.services {
+  text-align: center;
 }
