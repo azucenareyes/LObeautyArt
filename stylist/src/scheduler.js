@@ -16,7 +16,7 @@ const Scheduler = (props) => (
     events={events}
     defaultView="week"
     min={new Date(1970, 1, 1, 7)}
-    max={new Date(1970, 1, 1, 1)}
+    max={new Date(1970, 1, 1, 19)}
     scrollToTime={new Date(1970, 1, 1, 6)}
     defaultDate={new Date(2015, 3, 12)}
     onSelectEvent={event => alert(event.title)}
