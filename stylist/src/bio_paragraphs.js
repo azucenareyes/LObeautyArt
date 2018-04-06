@@ -28,13 +28,11 @@ const Bio = (props) => {
         and cosmetic lines Schwarzopf, Tigi, Framesi, Joico, L’Oreal, Lorac,
         NYX and many others.
       </p>
-      <p>
-        Lydia's current freelance business is LObeautyArt..she's practicing
-        her Master Stylist skills at On The Avenue Salon in longmont, CO.
-        performing the latest trend in hair color and cutting, makeup
-        artistry, Up-dos for special occasions., specializing in Vintage hair
-        styles, waxing and hair extensions.
-      </p>
+      Lydia's current freelance business is LObeautyArt she's practicing
+      her Master Stylist skills at On The Avenue Salon in longmont, CO.
+      performing the latest trend in hair color and cutting, makeup
+      artistry, Up-dos for special occasions., specializing in Vintage hair
+      styles, waxing and hair extensions.
     </div>
   );
 };

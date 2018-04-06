@@ -15,7 +15,7 @@ const gallery = (props) => {
       <img className="pics" src='images/7.jpg' margin="20px" height='100px' alt='lowlights'/>
       <img className="pics" src='images/8.jpg' height='100px' alt='redandblue'/>
       <img className="pics" src='images/9.jpg' margin="20px" height='100px' alt='lowlights'/>
-      <img className="pics" src='images/10.jpg' margin="20px" height='100px' alt='lowlights'/>
+      <img className="pics" src='images/10.jpg' margin="20px" height='200px' alt='lowlights'/>
       <img className="pics" src='images/11.jpg' height='100px' alt='redandblue'/>
       <img className="pics" src='images/12.jpg' margin="20px" height='100px' alt='lowlights'/>
       <img className="pics" src='images13.jpg' margin="20px" height='100px' alt='lowlights'/>

@@ -1,3 +1,10 @@
+.myCalendar {
+  background-color: white;
+  font-family: sans-serif;
+  padding: 25px;
+  color: blue;
+}
+
 .App {
 
 font-family: 'Clicker Script', cursive;
@@ -20,11 +27,11 @@ background-color: #ff00ff;
 
 .title {
   text-align: left;
-  height: 80px;
+  height: 25px;
   color: #b8860b;
   font-weight: bold;
 
-  font-size: 4em;
+  font-size: 2em;
 }
 
 .App-intro {
@@ -33,14 +40,18 @@ background-color: #ff00ff;
 }
 .facebook{
   text-align: right;
+  position:relative;
+  top: 100px;
+  right: 80px;
 }
+
 
 
 p {
   text-align: left;
   margin: 20px;
   font-family: 'Clicker Script', cursive;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .button1 {

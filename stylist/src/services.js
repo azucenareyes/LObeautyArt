@@ -5,7 +5,7 @@ const Services = (props) => {
   return(
     <div>
       <p className="services">
-        Hair:
+        Hair: long-texturing
         Color:
         Haistyles:
         Cutting:
